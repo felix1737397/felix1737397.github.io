@@ -1,0 +1,21 @@
+{
+    "configurations": [
+
+        {
+            "name": "Alfred felixdashboard",
+            "request": "launch",
+            "type": "dart",
+            // "externalConsole": true,
+            // "console": "terminal",
+            "toolArgs": [
+                "--define=API_URL=http://localhost:8080/v1.0/",
+                "--define=MONGO_CONNECTION_STRING=mongodb+srv://allo:allo123@cluster0.g855b.mongodb.net/?retryWrites=true&w=majority",
+                "--define=MONGO_DBNAME=projet_web3",
+                "--define=MONGO_USER=allo",
+                "--define=MONGO_PASSWORD=allo123",  
+                "--define=MONGO_HOST= cluster0-shard-00-00.g855b.mongodb.net:27017,cluster0-shard-00-01.g855b.mongodb.net:27017,cluster0-shard-00-02.g855b.mongodb.net:27017",
+                "--define=MONGO_AUTHDB=projet_web3",
+            ]
+        },
+    ]
+}
